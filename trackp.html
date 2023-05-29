@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Globalwave Logistics - Track Parcel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="sytles.css">
+</head>
+<body>
+    <!-- Header -->
+	<header>
+		  <img src="logo.jpg" alt="Globalwave Logistics Logo">
+		  <h2><span class="subheading" id="adminText">ADMINISTRATORS</span></h2>
+
+		  <h3><span class = "tP" id="tPP">TRACKING PAGE</span></h3>
+	</header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Track Parcel</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h2>TRACK PARCEL</h2>
+        <input type="text" id="trackingNumber" placeholder="Enter Tracking Number">
+        <button id="trackButton">Track</button>
+        <div class ="result"></div>
+        <table class="tracking-table">
+            <thead>
+                <tr>
+                    <th>Tracking Number</th>
+                    <th>Status</th>
+                    <th>Location</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <!-- Language Selector -->
+    <div id="languageSelector">
+        <select id="languageSelect">
+            <option value="en">English</option>
+            <option value="cs">Czech</option>
+            <option value="sk">Slovak</option>
+            <option value="de">German</option>
+            <option value="fr">French</option>
+        </select>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
