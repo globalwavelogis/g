@@ -35,6 +35,9 @@ document.getElementById('trackButton').addEventListener('click', function () {
       } else if (trackingNumber = 'LON201654709CZE')
       {
         tbody.innerHTML = 'Anna Hornova';
+      } else
+      {
+        tbody.innterHTML = '';
       }
   }, 1000);
   
