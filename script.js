@@ -31,10 +31,10 @@ document.getElementById('trackButton').addEventListener('click', function () {
   setTimeout(function () {
   if (trackingNumber == 'LON321612789CZE')
       {
-        tbody.innerHTML = 'JMÉNO PŘÍJEMCE: Janka Žigová';
+        tbody.innerHTML = 'Janka Žigová';
       } else if (trackingNumber = 'LON201654709CZE')
       {
-        tbody.innerHTML = 'JMÉNO PŘÍJEMCE: Anna Hornova';
+        tbody.innerHTML = 'Anna Hornova';
       }
   }, 1000);
   
