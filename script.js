@@ -76,7 +76,7 @@ languageSelect.addEventListener('change', function () {
       contact: 'Contact',
       trackParcel: 'Track Parcel',
       placeholder: 'Enter Tracking Number',
-      trackButton: 'Track',
+      trackButton: 'Tracking Number',
       trackingNumber: 'Tracking Number',
       status: 'Status',
       location: 'Location',
