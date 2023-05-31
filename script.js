@@ -191,7 +191,7 @@ languageSelect.addEventListener('change', function () {
 
     // Update tracking table headings
     trackingTableHeadings.forEach((heading, index) => {
-      const key = Object.keys(translation).slice(6)[index];
+      const key = Object.keys(translation).slice(7)[index];
       heading.textContent = translation[key];
     });
 
