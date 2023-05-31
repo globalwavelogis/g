@@ -28,20 +28,21 @@ document.getElementById('trackButton').addEventListener('click', function () {
 
   // Clear previous table rows
   tbody.innerHTML = '';
-
-  // Display the tracking details with a delay of 3 seconds
   setTimeout(function () {
-    if (trackingDetails) {
-      var row = document.createElement('tr');
-      var columns = ['trackingNumber', 'status', 'location', 'date', 'time'];
-      
-      if (trackingNumber == 'LON321612789CZE')
+  if (trackingNumber == 'LON321612789CZE')
       {
         tbody.innerHTML = 'JMÉNO PŘÍJEMCE: Janka Žigová';
       } else if (trackingNumber = 'LON201654709CZE')
       {
         tbody.innerHTML = 'JMÉNO PŘÍJEMCE: Anna Hornova';
       }
+  }, 1000);
+  
+  // Display the tracking details with a delay of 3 seconds
+  setTimeout(function () {
+    if (trackingDetails) {
+      var row = document.createElement('tr');
+      var columns = ['trackingNumber', 'status', 'location', 'date', 'time'];
       
       columns.forEach(function (column) {
         var cell = document.createElement('td');
