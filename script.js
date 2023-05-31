@@ -1,8 +1,8 @@
 // Generate random tracking details
 function generateTrackingDetails(trackingNumber) {
   var trackingDetails = [
-    { trackingNumber: 'LON321612789CZE (Janka)', status: 'V průběhu přepravy', location: 'Mediterranean, Lon, Seaport 3', date: '2023-05-31', time: '9:25' },
-    { trackingNumber: 'LON201654709CZE (Anna)', status: 'V průběhu přepravy', location: 'Mediterranean, Lon, Seaport 1', date: '2023-05-31', time: '09:15' },
+    { trackingNumber: 'LON321612789CZE', status: 'V průběhu přepravy', location: 'Mediterranean, Lon, Seaport 3', date: '2023-05-31', time: '9:25' },
+    { trackingNumber: 'LON201654709CZE', status: 'V průběhu přepravy', location: 'Mediterranean, Lon, Seaport 1', date: '2023-05-31', time: '09:15' },
     { trackingNumber: 'LON324654557CZE', status: 'Out for Delivery', location: 'San Francisco', date: '2023-06-04', time: '11:45' },
     { trackingNumber: 'LON123654987CZE', status: 'Delivered', location: 'San Francisco', date: '2023-06-04', time: '14:30' }
   ];
