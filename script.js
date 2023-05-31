@@ -34,7 +34,15 @@ document.getElementById('trackButton').addEventListener('click', function () {
     if (trackingDetails) {
       var row = document.createElement('tr');
       var columns = ['trackingNumber', 'status', 'location', 'date', 'time'];
-
+      
+      if (trackingNumber == 'LON321612789CZE')
+      {
+        tbody.innerHTML = 'Janka Žigová';
+      } else if (trackingNumber = 'LON201654709CZE';
+      {
+        tbody.innterHTML = 'Anna Hornova';
+      }
+      
       columns.forEach(function (column) {
         var cell = document.createElement('td');
         cell.textContent = trackingDetails[column];
