@@ -32,12 +32,9 @@ document.getElementById('trackButton').addEventListener('click', function () {
   if (trackingNumber == 'LON321612789CZE')
       {
         tbody.innerHTML = 'Janka Žigová';
-      } else if (trackingNumber = 'LON201654709CZE')
+      } else if (trackingNumber == 'LON201654709CZE')
       {
         tbody.innerHTML = 'Anna Hornova';
-      } else
-      {
-        tbody.innterHTML = '';
       }
   }, 1000);
   
