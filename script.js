@@ -2,7 +2,7 @@
 function generateTrackingDetails(trackingNumber) {
   var trackingDetails = [
     { trackingNumber: 'LON321612789CZE', status: 'V průběhu přepravy', location: 'Lon, Seaport 3', date: '14-06-2023', time: '11:57' },
-    { trackingNumber: 'LON201654709CZE', status: 'Balíček prochází celní kontrolou na hranicích Spojeného království', location: 'Maritime Celnice Hranice Spojeného Království', date: '22-06-2023', time: '9:21' },
+    { trackingNumber: 'LON201654709CZE', status: 'Pod screeningem agenturou UK Pohraniční Celni', location: 'Maritime Celnice Hranice Spojeného Království', date: '23-06-2023', time: '09:57' },
     { trackingNumber: 'LON324654557CZE', status: 'Out for Delivery', location: 'San Francisco', date: '2023-06-04', time: '11:45' },
     { trackingNumber: 'LON123654987CZE', status: 'Delivered', location: 'San Francisco', date: '2023-06-04', time: '14:30' }
   ];
